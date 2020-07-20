@@ -36,6 +36,7 @@ else
     echo 'affiche-moi bonsoir';
 }
 */
+/*
 //la condition switch...case
 $jour=2;
 switch($jour) // on indique sur quelle variable on travaille
@@ -65,7 +66,14 @@ switch($jour) // on indique sur quelle variable on travaille
     echo 'Desole, ce n\'est pas un jour de la semaine';
 
 }
+*/
 //le boucle for
+$numero=1; //declaration et initialisation de variable
+     //1        //2         //3
+for($numero=1;$numero<=10;$numero++) //1: 
+{
+    echo 'ceci est le numero ' . $numero . '</br>';
+}
 
 
 
