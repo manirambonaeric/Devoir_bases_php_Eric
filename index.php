@@ -65,6 +65,8 @@ switch($jour) // on indique sur quelle variable on travaille
     echo 'Desole, ce n\'est pas un jour de la semaine';
 
 }
+//le boucle for
+
 
 
 
