@@ -98,7 +98,12 @@ do{
 while($i<=10); // la condition
 */
 //la fonction
-
+$longueur=5;
+$largeur=4;
+function surfacerectangle($longueur,$largeur)
+{
+    
+}
 
 
 
