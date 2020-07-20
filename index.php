@@ -12,7 +12,7 @@ function multiplication($a,$b)
 multiplication(2,4);*/
 
 //les booleens
-$poids=10; // on teste le booleen en changeant la variable
+/*$poids=10; // on teste le booleen en changeant la valeur
 if($poids >=15)
 {
     $a=true;
@@ -23,9 +23,10 @@ else
     $a=false;
     echo 'le poids n\' est pa valide';
 }
+*/
 //la condition if.... else
-$c=5;
-if($c<=10)
+$c=10;
+if($c<=10) // on teste selon la valeur
 {
     echo 'affiche-moi bonjour';
 }
