@@ -106,7 +106,12 @@ echo $prenom[0] ."</br>";
 echo $prenom[1] ."</br>";
 echo $prenom[2] ."</br>";
 //2.tableau associatif
-
+$caracteristiques = array(
+    'Prenom' => 'Olivier',
+    'Commune' => 'Buganda',
+    'Province' => 'Cibitoke',
+    'Zone' => 'Gasenyi'
+);
 /*
 //la fonction qui calcule la surface du rectangle
 $longueur=5;
