@@ -102,7 +102,8 @@ $longueur=5;
 $largeur=4;
 function surfacerectangle($longueur,$largeur)
 {
-    
+    $surface=$longueur*$largeur;
+    return $surface;
 }
 
 
