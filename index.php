@@ -25,7 +25,14 @@ else
 }
 //la condition if.... else
 $c=5;
-
+if($c<=10)
+{
+    echo 'affiche-moi bonjour';
+}
+else
+{
+    echo 'affiche-moi bonsoir';
+}
 
 
 
