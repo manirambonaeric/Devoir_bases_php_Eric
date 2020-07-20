@@ -85,6 +85,8 @@ while($numero<=20)
     $numero++;
 }
 */
+//le boucle do while
+
 
 
 
