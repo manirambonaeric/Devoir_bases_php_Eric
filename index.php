@@ -98,13 +98,14 @@ do{
 while($i<=10); // la condition
 */
 //les tableaux :
-//1.tableau numerote
+/*//1.tableau numerote
 $prenom[0]='Olivier';
 $prenom[1]='Pericles';
 $prenom[2]='Christ';
 echo $prenom[0] ."</br>";
 echo $prenom[1] ."</br>";
 echo $prenom[2] ."</br>";
+*/
 //2.tableau associatif
 $caracteristiques = array(
     'Prenom' => 'Olivier',
@@ -112,6 +113,10 @@ $caracteristiques = array(
     'Province' => 'Cibitoke',
     'Zone' => 'Gasenyi'
 );
+echo  'Mon prenom est :' .$caracteristiques ['Prenom'];
+echo  'De la Commune :' .$caracteristiques ['Commune'];
+echo 'Province :'.$caracteristiques ['Province'];
+echo 'Zone :' .$caracteristiques ['Zone'];
 /*
 //la fonction qui calcule la surface du rectangle
 $longueur=5;
