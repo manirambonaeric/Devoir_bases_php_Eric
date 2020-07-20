@@ -12,7 +12,7 @@ function multiplication($a,$b)
 multiplication(2,4);*/
 
 //les booleens
-$poids=20;
+$poids=10; // on teste le booleen en changeant la variable
 if($poids >=15)
 {
     $a=true;
