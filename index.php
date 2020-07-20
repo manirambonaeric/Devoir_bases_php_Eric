@@ -10,6 +10,7 @@ function multiplication($a,$b)
     echo $b;
 }
 multiplication(2,4);
+//les booleens
 
 
 
