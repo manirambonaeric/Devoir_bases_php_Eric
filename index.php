@@ -97,6 +97,8 @@ do{
 
 while($i<=10); // la condition
 */
+//la fonction
+
 
 
 
