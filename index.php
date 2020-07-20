@@ -9,6 +9,7 @@ function multiplication($a,$b)
     $b=$a*$b;
     echo $b;
 }
+multiplication(2,4);
 
 
 
