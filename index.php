@@ -24,6 +24,7 @@ else
     echo 'le poids n\' est pa valide';
 }
 */
+/*
 //la condition if.... else
 $c=10;
 if($c<=10) // on teste selon la valeur
@@ -34,32 +35,33 @@ else
 {
     echo 'affiche-moi bonsoir';
 }
+*/
 //la condition switch...case
-$jour=7;
+$jour=6;
 switch($jour) // on indique sur quelle variable on travaille
 {
-    case 1:
+    case 1: //dans le cas ou $jour vaut 1
     echo ' LUNDI c\'est un jour de la semaine';
     break;
-    case 2:
+    case 2: //dans le cas ou $jour vaut 2
     echo 'MARDI c\'est un jour de la semaine';
     break;
-    case 3:
+    case 3: //dans le cas ou $jour vaut 3
     echo 'MERCREDI c\'est un jour de la semaine';
     break;
-    case 4:
+    case 4: //dans le cas ou $jour vaut 4
     echo 'JEUDI c\'est un jour de la semaine';
     break;
-    case 5:
+    case 5: //dans le cas ou $jour vaut 5
     echo 'VENDREDI c\'est un jour de la semaine';
     break;
-    case 6:
+    case 6: //dans le cas ou $jour vaut 6
     echo 'SAMEDI c\'est un jour de la semaine';
     break;
-    case 7:
-    echo 'SAMEDI c\'est un jour de la semaine';
+    case 7:  //dans le cas ou $jour vaut 7
+    echo 'DIMANCHE c\'est un jour de la semaine';
     break;
-    default:
+    default: 
     echo 'Desole, ce n\'est pas un jour de la semaine';
 
 }
