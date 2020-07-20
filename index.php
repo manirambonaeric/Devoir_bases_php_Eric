@@ -100,12 +100,12 @@ while($i<=10); // la condition
 //la fonction
 $longueur=5;
 $largeur=4;
-function surfacerectangle($longueur,$largeur)
+function surfacerectangle($longueur,$largeur)// declaration de la fonction
 {
-    $surface=$longueur*$largeur;
+    $surface=$longueur*$largeur; //utilisation de la fonction
     return $surface;
 }
-    $surface = surfacerectangle(5,4);
+    $surface = surfacerectangle(5,4); //appel de la fonction
     echo 'la surface de longueur de 5 et largeur de 4 est:' .$surface;
 
 
