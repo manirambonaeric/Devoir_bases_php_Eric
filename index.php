@@ -97,7 +97,7 @@ do{
 
 while($i<=10); // la condition
 */
-//la fonction
+//la fonction qui calcule la surface du rectangle
 $longueur=5;
 $largeur=4;
 function surfacerectangle($longueur,$largeur)// declaration de la fonction
