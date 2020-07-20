@@ -106,7 +106,7 @@ function surfacerectangle($longueur,$largeur)
     return $surface;
 }
     $surface = surfacerectangle(5,4);
-
+    echo 'la surface de longueur de 5 et largeur de 4 est:' .$surface;
 
 
 
