@@ -86,7 +86,11 @@ while($numero<=20)
 }
 */
 //le boucle do while
-
+$i=0;// declaration et initialisation du compteur
+//boucle generant la boucle de multiplication de 10
+do{
+    echo '10*'. $i . '=' (10*$i) .'</br>';
+}
 
 
 
