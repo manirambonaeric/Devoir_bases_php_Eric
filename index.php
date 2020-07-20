@@ -34,6 +34,8 @@ else
 {
     echo 'affiche-moi bonsoir';
 }
+//la condition switch...case
+
 
 
 
