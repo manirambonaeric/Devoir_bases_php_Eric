@@ -37,7 +37,7 @@ else
 }
 */
 //la condition switch...case
-$jour=6;
+$jour=2;
 switch($jour) // on indique sur quelle variable on travaille
 {
     case 1: //dans le cas ou $jour vaut 1
@@ -61,7 +61,7 @@ switch($jour) // on indique sur quelle variable on travaille
     case 7:  //dans le cas ou $jour vaut 7
     echo 'DIMANCHE c\'est un jour de la semaine';
     break;
-    default: 
+    default: // dans le cas ou $jour n'appartient pas dans la semaine
     echo 'Desole, ce n\'est pas un jour de la semaine';
 
 }
