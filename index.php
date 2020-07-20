@@ -14,7 +14,11 @@ multiplication(2,4);
 $poids=20;
 if(poids>=15)
 {
-    
+    $a=true;
+}
+else
+{
+    $a=false;
 }
 
 
