@@ -35,6 +35,13 @@ else
     echo 'affiche-moi bonsoir';
 }
 //la condition switch...case
+$jour=7;
+switch($jour)
+{
+    case 1;
+    echo 'c\'est un jour de la semaine';
+}
+
 
 
 
