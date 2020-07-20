@@ -99,7 +99,13 @@ while($i<=10); // la condition
 */
 //les tableaux :
 //1.tableau numerote
-
+$prenom[0]='Olivier';
+$prenom[1]='Pericles';
+$prenom[2]='Christ';
+echo $prenom[0] ."</br>";
+echo $prenom[1] ."</br>";
+echo $prenom[2] ."</br>";
+/*
 //la fonction qui calcule la surface du rectangle
 $longueur=5;
 $largeur=4;
@@ -110,7 +116,7 @@ function surfacerectangle($longueur,$largeur)// declaration de la fonction
 }
     $surface = surfacerectangle(5,4); //appel de la fonction
     echo 'la surface de longueur de 5 et largeur de 4 est:' .$surface;
-
+*/
 
 
 
