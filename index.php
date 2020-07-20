@@ -11,6 +11,12 @@ function multiplication($a,$b)
 }
 multiplication(2,4);
 //les booleens
+$poids=20;
+if(poids>=15)
+{
+    
+}
+
 
 
 
