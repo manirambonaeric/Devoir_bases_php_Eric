@@ -97,6 +97,9 @@ do{
 
 while($i<=10); // la condition
 */
+//les tableaux :
+//1.tableau numerote
+
 //la fonction qui calcule la surface du rectangle
 $longueur=5;
 $largeur=4;
