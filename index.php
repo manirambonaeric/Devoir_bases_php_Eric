@@ -67,13 +67,15 @@ switch($jour) // on indique sur quelle variable on travaille
 
 }
 */
+/*
 //le boucle for
-$numero=1; //declaration et initialisation de variable
+$numero; //declaration de variable
      //1        //2         //3
-for($numero=1;$numero<=10;$numero++) //1: 
+for($numero=1;$numero<=10;$numero++) //1: sert a initialiser 2:la condition 3:incrementation
 {
     echo 'ceci est le numero ' . $numero . '</br>';
 }
+*/
 
 
 
