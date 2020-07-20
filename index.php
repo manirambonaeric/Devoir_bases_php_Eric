@@ -76,6 +76,16 @@ for($numero=1;$numero<=10;$numero++) //1: sert a initialiser 2:la condition 3:in
     echo 'ceci est le numero ' . $numero . '</br>';
 }
 */
+/*
+// le boucle while
+$numero =1; //declaration de variable et initialisation
+while($numero<=20)
+{
+    echo 'ceci est le numero' . $numero . '</br>';
+    $numero++;
+}
+*/
+
 
 
 
