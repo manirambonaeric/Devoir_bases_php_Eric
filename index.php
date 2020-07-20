@@ -23,6 +23,8 @@ else
     $a=false;
     echo 'le poids n\' est pa valide';
 }
+//la condition if.... else
+
 
 
 
