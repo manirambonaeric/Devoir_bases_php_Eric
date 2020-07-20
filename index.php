@@ -24,6 +24,7 @@ else
     echo 'le poids n\' est pa valide';
 }
 //la condition if.... else
+$c=5;
 
 
 
