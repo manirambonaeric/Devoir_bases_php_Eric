@@ -74,7 +74,10 @@ switch($n)
 // Pour la boucle for
 $t=10; 
 
-for($i=1;$i<=10;$i++) 
+for($i=1;$i<=10;$i++)
+
+echo 'Donner le nom des eleves les plus intelligents de la classe :';
+$t;
 if($t==$i)
 {
     echo 'Voici les '.$t.' eleves qui sont parmi les eleves les plus intelligents de la classe ' , '<br></br>';
