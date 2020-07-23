@@ -1,146 +1,118 @@
 <?php
 // les variables
-/*$a=2;
-$b=4;
-function multiplication($a,$b)
+$t=2;
+$p=4;
+function somme($t,$p)
 {
-    $a=$a;
-    $b=$b;
-    $b=$a*$b;
-    echo $b;
+    $a=$t;
+    $b=$p;
+    $r=$t+$p;
+    echo $r;
 }
-multiplication(2,4);*/
 
-//les booleens
-/*$poids=10; // on teste le booleen en changeant la valeur
-if($poids >=15)
+// Pour les booleens 
+
+echo 'Donner le dividende de ton choix:','<br></br>';
+
+echo $b;
+$bmod2==0;
+
+$c =$bmod2;
+
+if ( $c=true) {
+   
+    echo 'le dividende est un nombre paire','<br></br>';
+}
+else
+if ( $c=false) {
+
+    echo 'le dividende n\' est pas un nombre paire', '<br></br>';
+}
+
+$a;
+
+
+// la condition if.... else
+$a=10;
+
+if($a<=5)
 {
-    $a=true;
-    echo 'le poids est valide';
+    echo 'Les multiples de a sont :' , $a;
 }
 else
 {
-    $a=false;
-    echo 'le poids n\' est pa valide';
+    echo 'Le chiffre tape est un chiffre premier' , '<br></br>';
 }
-*/
-/*
-//la condition if.... else
-$c=10;
-if($c<=10) // on teste selon la valeur
-{
-    echo 'affiche-moi bonjour';
-}
-else
-{
-    echo 'affiche-moi bonsoir';
-}
-*/
-/*
+
 //la condition switch...case
-$jour=2;
-switch($jour) // on indique sur quelle variable on travaille
+$n=5;
+switch($n)
 {
-    case 1: //dans le cas ou $jour vaut 1
-    echo ' LUNDI c\'est un jour de la semaine';
+    case 1:
+    echo ' Le nombre tape est un nombre premier';
     break;
-    case 2: //dans le cas ou $jour vaut 2
-    echo 'MARDI c\'est un jour de la semaine';
+    case 2:
+    echo 'Le nombre tape est un nombre paire';
     break;
-    case 3: //dans le cas ou $jour vaut 3
-    echo 'MERCREDI c\'est un jour de la semaine';
+    case 3:
+    echo 'Le nombre tape est un nombre premier';
     break;
-    case 4: //dans le cas ou $jour vaut 4
-    echo 'JEUDI c\'est un jour de la semaine';
+    case 4:
+    echo 'Le nombre tape est un nombre paire';
     break;
-    case 5: //dans le cas ou $jour vaut 5
-    echo 'VENDREDI c\'est un jour de la semaine';
+    case 5:
+    echo 'Le nombre tape est un nombre premier' .'<br></br>';
     break;
-    case 6: //dans le cas ou $jour vaut 6
-    echo 'SAMEDI c\'est un jour de la semaine';
-    break;
-    case 7:  //dans le cas ou $jour vaut 7
-    echo 'DIMANCHE c\'est un jour de la semaine';
-    break;
-    default: // dans le cas ou $jour n'appartient pas dans la semaine
-    echo 'Desole, ce n\'est pas un jour de la semaine';
+    
+    default: 
+    echo 'Ce nombre n\'appartient pas parmi les cinq premiers nombres entiers naturels' .'<br>';
 
 }
-*/
-/*
-//le boucle for
-$numero; //declaration de variable
-     //1        //2         //3
-for($numero=1;$numero<=10;$numero++) //1: sert a initialiser 2:la condition 3:incrementation
+'<br></br>';
+
+
+// Pour la boucle for
+$t=10; 
+
+for($i=1;$i<=10;$i++) 
+if($t==$i)
 {
-    echo 'ceci est le numero ' . $numero . '</br>';
+    echo 'Voici les '.$t.' eleves qui sont parmi les eleves les plus intelligents de la classe ' , '<br></br>';
+
+    $t++;
 }
-*/
-/*
+
+
 // le boucle while
-$numero =1; //declaration de variable et initialisation
-while($numero<=20)
+$m =0; 
+while($m<=9)
 {
-    echo 'ceci est le numero' . $numero . '</br>';
-    $numero++;
+    echo 'Voila  ' . $m  .' est le chiffre qui est compris parmi les neufs premiers nombres entiers <br>';
+
+    $m++ ;
 }
-*/
-/*
-//le boucle do while
-$i=0;// declaration et initialisation du compteur
-//boucle generant la boucle de multiplication de 10
+
+// Boucle do while
+$k=10;
 do{
-    echo '10*'. $i . '=' .(10*$i) .'</br>';
-    //incrementation du compteur
-    $i++;
+    echo 'Voici le premier nombre entier naturel qui a quatre diviseurs' .'<br></br>';
+    
+    $k++;
 }
 
-while($i<=10); // la condition
-*/
-//les tableaux :
-/*//1.tableau numerote
-$prenom[0]='Olivier';
-$prenom[1]='Pericles';
-$prenom[2]='Christ';
-echo $prenom[0] ."</br>";
-echo $prenom[1] ."</br>";
-echo $prenom[2] ."</br>";
-*/
-//2.tableau associatif
-$caracteristiques = array(
-    'Prenom' => 'Olivier',
-    'Commune' => 'Buganda',
-    'Province' => 'Cibitoke',
-    'Zone' => 'Gasenyi'
+while($k<10);
+
+//Tableau
+$tab = array(
+    'Produit' => 'Fanta',
+    'categorie' => 'froid',
+    'contenance' => '32cl'
+
+
 );
-echo  'Mon prenom est :' .$caracteristiques ['Prenom'];
-echo  'De la Commune :' .$caracteristiques ['Commune'];
-echo 'Province :'.$caracteristiques ['Province'];
-echo 'Zone :' .$caracteristiques ['Zone'];
-/*
-//la fonction qui calcule la surface du rectangle
-$longueur=5;
-$largeur=4;
-function surfacerectangle($longueur,$largeur)// declaration de la fonction
-{
-    $surface=$longueur*$largeur; //utilisation de la fonction
-    return $surface;
-}
-    $surface = surfacerectangle(5,4); //appel de la fonction
-    echo 'la surface de longueur de 5 et largeur de 4 est:' .$surface;
-*/
-
-
-
-
-
-
-
-
-
-
-
-
+echo  'je suis le '  .$tab ['Produit'];
+echo  ' qui est '  .$tab ['categorie'];
+echo  ' et je contiens '  .$tab ['contenance'];
 
 
 ?>
