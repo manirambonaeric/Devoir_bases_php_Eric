@@ -46,37 +46,37 @@ else
 
 //la condition switch...case
 $n=3;
-switch($n)
+switch($n) // on teste en variant la valeur
 {
-    case 1:
+    case 1: //dans le cas ou $n vaut 1
     echo '<h2>'.' 4)Le chiffre tape est un chiffre premier'.'</h2>';
     break;
-    case 2:
+    case 2://dans le cas ou $n vaut 2
     echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
     break;
-    case 3;
+    case 3;//dans le cas ou $n vaut 3
     echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
     break;
-    case 4:
+    case 4://dans le cas ou $n vaut 4
     echo '<h2>'.'4)Le chiffre tape est un chiffre paire'.'</h2>';
     break;
-    case 5:
+    case 5://dans le cas ou $n vaut 5
     echo '<h2>'.'4)Le chiffre tape est un chiffre premier'.'</h2>';
     break;
     
-    default: 
+    default: //sinon le cas n'exite pas
     echo '<h2>'.'4)Ce chiffre n\'appartient pas parmi les premiers cinq  chiffres entiers naturels '.'</h2>' ;
 }
 
 
 // Pour la boucle for 
-$eleve; 
-for($eleve=2;$eleve<=10;$eleve++)
+$eleve; //1    //2        //3
+for($eleve=2;$eleve<=10;$eleve++) //1:sert a initialiser 2:condition 3:incrementation
 {
     echo '<h2>'.'5)Voila le '. $eleve .'è eleve de notre classe </br>'.'</h2>';
 }
 
-// Ble boucle while
+// le boucle while :tester  quant est ce que la variable est tape
 $m =0; 
 while($m<=9)
 {
@@ -85,7 +85,7 @@ while($m<=9)
     $m++ ;
 }
 
-//B Boucle do while
+// Boucle do while :Tester combien de fois la variable est utilise
 $k=10;
 do{
     echo '<h2>'.'7)Voici le premier nombre entier naturel qui a quatre diviseurs' .'<br></br>';
@@ -95,7 +95,7 @@ do{
 
 while($k<10);
 
-//BTableau
+//Tableau  : stocker dans le tableau
 $tab = array(
     'Produit' => 'Fanta',
     'categorie' => 'froid',
