@@ -7,105 +7,95 @@ function somme($t,$p)
     $a=$t;
     $b=$p;
     $r=$t+$p;
-    echo $r;
+    echo '<h2>'.'La somme de a et b est: ' .$r . '</h2>';
 }
-
+somme(2,4);
 // Pour les booleens 
+$i=5;
 
-echo 'Donner le dividende de ton choix:','<br></br>';
-
-echo $b;
-$bmod2==0;
-
-$c =$bmod2;
-
-if ( $c=true) {
-   
-    echo 'le dividende est un nombre paire','<br></br>';
+if ( $i<=10) {
+   $c=true;
+    echo '<h2>'.'Le chiffre tape est inferieur a 10'. '</h2>';
 }
 else
-if ( $c=false) {
+{
+  $c=false;
+    echo '<h2>'.'Le chiffre tape est superieur a 10'. '</h2>';
 
-    echo 'le dividende n\' est pas un nombre paire', '<br></br>';
-}
+  } 
 
-$a;
 
 
 // la condition if.... else
-$a=10;
+$t=25;
+$a=5;
 
-if($a<=5)
+if($t==25)
 {
-    echo 'Les multiples de a sont :' , $a;
+    echo '<h2>'.'Le nombre tape est le carre de ' . $a;
 }
 else
-{
-    echo 'Le chiffre tape est un chiffre premier' , '<br></br>';
-}
+
+
+    if($t!=25)
+    {
+        echo '<h2>'.'Le nombre tape n\'est pas le carre de ' .$a. '</h2>';
+    }
+    
+ 
 
 //la condition switch...case
-$n=5;
+$n=3;
 switch($n)
 {
     case 1:
-    echo ' Le nombre tape est un nombre premier';
+    echo '<h2>'.' Le chiffre tape est un chiffre premier'.'</h2>';
     break;
     case 2:
-    echo 'Le nombre tape est un nombre paire';
+    echo '<h2>'.'Le chiffre tape est un chiffre paire'.'</h2>';
     break;
-    case 3:
-    echo 'Le nombre tape est un nombre premier';
+    case 3;
+    echo '<h2>'.'Le chiffre tape est un chiffre premier'.'</h2>';
     break;
     case 4:
-    echo 'Le nombre tape est un nombre paire';
+    echo '<h2>'.'Le chiffre tape est un chiffre paire'.'</h2>';
     break;
     case 5:
-    echo 'Le nombre tape est un nombre premier' .'<br></br>';
+    echo '<h2>'.'Le chiffre tape est un chiffre premier'.'</h2>';
     break;
     
     default: 
-    echo 'Ce nombre n\'appartient pas parmi les cinq premiers nombres entiers naturels' .'<br>';
-
+    echo '<h2>'.'Ce chiffre n\'appartient pas parmi les premiers cinq  chiffres entiers naturels '.'</h2>' ;
 }
-'<br></br>';
 
 
-// Pour la boucle for
-$t=10; 
-
-for($i=1;$i<=10;$i++)
-
-echo 'Donner le nom des eleves les plus intelligents de la classe :';
-$t;
-if($t==$i)
+// Pour la boucle for 
+$eleve; 
+for($eleve=2;$eleve<=10;$eleve++)
 {
-    echo 'Voici les '.$t.' eleves qui sont parmi les eleves les plus intelligents de la classe ' , '<br></br>';
-
-    $t++;
+    echo '<h2>'.'Voila le '. $eleve .'è eleve de notre classe </br>'.'</h2>';
 }
 
-
-// le boucle while
+// Ble boucle while
 $m =0; 
 while($m<=9)
 {
-    echo 'Voila  ' . $m  .' est le chiffre qui est compris parmi les neufs premiers nombres entiers <br>';
+    echo '<h2>'.'Voila  ' . $m  .' est le chiffre qui est compris parmi les neufs premiers nombres entiers';
 
     $m++ ;
 }
 
-// Boucle do while
+//B Boucle do while
 $k=10;
 do{
-    echo 'Voici le premier nombre entier naturel qui a quatre diviseurs' .'<br></br>';
+    echo '<h2>'.'Voici le premier nombre entier naturel qui a quatre diviseurs' .'<br></br>';
     
     $k++;
 }
 
 while($k<10);
 
-//Tableau
+//BTableau
 $tab = array(
     'Produit' => 'Fanta',
     'categorie' => 'froid',
@@ -113,9 +103,9 @@ $tab = array(
 
 
 );
-echo  'je suis le '  .$tab ['Produit'];
-echo  ' qui est '  .$tab ['categorie'];
-echo  ' et je contiens '  .$tab ['contenance'];
+echo  '<h2>'.'je suis le '  .$tab ['Produit'].'</h2>';
+echo  '<h2>'.' qui est '  .$tab ['categorie'].'</h2>';
+echo  '<h2>'.' et je contiens '  .$tab ['contenance'].'</h2>';
 
 
 ?>
